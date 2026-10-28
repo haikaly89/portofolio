@@ -5,18 +5,24 @@
 <title>Haikal Yusuf Azzam</title>
 <style>
 body { margin: 0; padding: 0; background: #ffffff; font-family: Tahoma, Geneva, sans-serif; }
-a { text-decoration: none; }
+a { color: #003399; }
 li { margin-bottom: 8px; }
 .content-container { max-width: 800px; margin: 0 auto; padding: 0 20px; }
-p { margin-top: 0px; margin-bottom: 0px; }
+p { margin-top: 0px; margin-bottom: 1em; }
 .nav-menu { background-color: #004a74; padding: 15px; text-align: center; width: 100%; margin-bottom: 30px; }
 .nav-menu a { color: white; text-decoration: none; font-family: Tahoma, Geneva, sans-serif; font-size: 16px; margin: 0 10px; transition: color 0.3s ease; }
 .nav-menu a:hover { color: #e0e0e0; }
 .caption { font-size: 34px; font-weight: normal; color: #000; font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif; }
-.content { font-size: 16px; font-family: Tahoma, Geneva, sans-serif; text-align: justify; }
-.title-small { font-size: 20px; font-family: Georgia, "Times New Roman", Times, serif; font-weight: bold; color: #F90; }
-.title-large { font-size: 28px; font-family: Georgia, "Times New Roman", Times, serif; font-weight: bold; color: #000; }
-.year-header { font-size: 24px; font-family: Georgia, "Times New Roman", Times, serif; font-weight: bold; color: #004a74; margin-top: 30px; margin-bottom: 15px; border-bottom: 2px solid #004a74; padding-bottom: 5px; }
+.name-header { font-size: 40px; font-weight: bold; color: #000; font-family: Georgia, "Times New Roman", Times, serif; margin: 0 0 12px; }
+.content { font-size: 16px; font-family: Tahoma, Geneva, sans-serif; text-align: left; }
+.email-line { font-size: 14px; font-family: Tahoma, Geneva, sans-serif; margin: 0 0 12px; }
+.job-line { font-size: 14px; font-family: Tahoma, Geneva, sans-serif; margin: 0 0 12px; }
+.headshot { width: 250px; height: 250px; object-fit: cover; display: block; }
+.header-columns { display: flex; gap: 30px; align-items: flex-start; margin-bottom: 10px; }
+.col-right { flex: 1; }
+.quick-links { margin: 12px 0 0; font-size: 15px; }
+.quick-links a { color: #003399; font-weight: bold; }
+.quick-links .sep { color: #999; font-weight: normal; }
 </style>
 </head>
 <body>
@@ -31,90 +37,26 @@ p { margin-top: 0px; margin-bottom: 0px; }
 
 <div class="content-container">
 
-<p style="text-align: center">
-<img src="https://www.haikaly.my.id/images/profile/avatar.jpg" alt="Haikal Yusuf Azzam" style="height: 250px; width: auto; border: 0;">
-</p>
+<div class="header-columns">
+<div class="col-left">
+<img class="headshot" src="https://www.haikaly.my.id/images/profile/avatar.jpg" alt="Haikal Yusuf Azzam">
+</div>
+<div class="col-right">
+<h1 class="name-header">Haikal Yusuf Azzam</h1>
+<p class="email-line">Email: <a href="mailto:haikalyusuf89@gmail.com">haikalyusuf89@gmail.com</a></p>
+<p class="job-line">Internet Engineering Student<br>
+<strong>Universitas Gadjah Mada</strong></p>
+<div class="quick-links">
+<a href="https://scholar.google.com/citations?user=YOUR_ID"><strong>Google Scholar</strong></a> <span class="sep">|</span> <a href="https://twitter.com/haikaly89"><strong>Twitter</strong></a> <span class="sep">|</span> <a href="https://www.haikaly.my.id/"><strong>Bio</strong></a> <span class="sep">|</span> <a href="mailto:haikalyusuf89@gmail.com"><strong>Email</strong></a>
+</div>
+</div>
+</div>
 
-<p class="caption">Haikal Yusuf Azzam</p>
-<p class="content">I am Haikal, an Internet Engineering student with focus on physical and cloud infrastructure, network, security, and AI-driven solutions. I love exploring new things and applying it to my projects. If you have an interesting opportunity or collaboration idea, please let me know. I'd be happy to hear from you.</p>
-<p class="content"><strong>GitHub:</strong> <a href="https://github.com/haikaly89">github.com/haikaly89</a><br>
-<strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/haikal-yusuf/">linkedin.com/in/haikal-yusuf</a></p>
+<p class="content">My current research focuses on <a href="https://www.haikaly.my.id/">physical and cloud infrastructure</a>, network security, and <a href="https://www.haikaly.my.id/">AI-driven solutions</a>. I love exploring new things and applying them to my projects. If you have an interesting opportunity or <a href="https://github.com/haikaly89">collaboration</a> idea, please let me know. I'd be happy to hear from you.</p>
 
-<h2 class="title-large"><p><span><center>Featured Projects</center></span></p></h2>
-<ul>
-<li>
-<p class="content"><strong>Implementing Virtualized Microservices and AI Workloads on OpenStack Private Cloud</strong><br>
-This project demonstrates the design and deployment of a private cloud infrastructure using OpenStack to host virtualized microservices and high-performance AI workloads, offering a cost-effective open-source alternative to expensive enterprise licenses.</p>
-</li>
-<li>
-<p class="content"><strong>Private CI/CD Server using Gitea, Webhook, and GoAccess Monitoring</strong><br>
-A lightweight, self-hosted CI/CD infrastructure on Ubuntu VPS utilizing Gitea and Webhooks for automated deployment with real-time GoAccess traffic monitoring.</p>
-</li>
-<li>
-<p class="content"><strong>IoT-Based Earthquake Early Warning System using ESP32 and Kubernetes</strong><br>
-An earthquake detection system integrating MPU6050 sensors, ESP32, and Kubernetes to provide real-time vibration monitoring and early warnings for disaster mitigation.</p>
-</li>
-</ul>
+<p class="content">My specific research interests include building virtualized microservices and AI workloads on OpenStack private clouds, self-hosted CI/CD infrastructure with Gitea and Webhooks, and IoT-based earthquake early-warning systems using ESP32 and Kubernetes.</p>
 
-<h2 class="title-large"><p><span><center>The Journey So Far</center></span></p></h2>
-<ul>
-<li>
-<p class="content"><strong>Aug 2025 - Dec 2025</strong><br>
-Laboratory Assistant Basic Programming Python - Universitas Gadjah Mada<br>
-Support instructors in running Python programming lab sessions for students.</p>
-</li>
-<li>
-<p class="content"><strong>Oct 2025 - Nov 2025</strong><br>
-HCIA 5G Trainee - Digital Talent Scholarship (Komdigi &amp; Huawei)<br>
-Completed training on 5G Development Evolution, Network Architecture, and Key Technologies.</p>
-</li>
-<li>
-<p class="content"><strong>Jun 2025 - Sep 2025</strong><br>
-AI-volution AI Ambassador - AI-volution (US Embassy &amp; Biji-biji)<br>
-Developed strategies to share AI knowledge and foster collaboration.</p>
-</li>
-<li>
-<p class="content"><strong>Apr 2025 - Jul 2025</strong><br>
-Master of Ceremonies &amp; Technical Division - OPENINFRA DAYS INDONESIA 2025<br>
-Assisting in hosting and facilitating the OID 2025 event (more than 400 participants).</p>
-</li>
-<li>
-<p class="content"><strong>Feb 2025 - Jun 2025</strong><br>
-Laboratory Assistant Object Oriented Programming - Universitas Gadjah Mada<br>
-Mentored students in applying Object-Oriented Programming (OOP) principles (Encapsulation, Inheritance, Polymorphism).</p>
-</li>
-<li>
-<p class="content"><strong>Dec 2024 - Feb 2025</strong><br>
-CSIRT Intern (Security Development) - KAMISANDI DINAS KOMUNIKASI DAN INFORMATIKA DIY<br>
-Developing an API to assess password security levels in a login system.</p>
-</li>
-<li>
-<p class="content"><strong>Aug 2024 - Dec 2024</strong><br>
-Laboratory Assistant Basic Programming Python - Universitas Gadjah Mada<br>
-Support instructors in running Python programming lab sessions for students.</p>
-</li>
-<li>
-<p class="content"><strong>Feb 2025 - Mar 2025</strong><br>
-AI &amp; IoT Bootcamp - Samsung Innovation Campus Batch 5<br>
-Completed 4-month intensive training in AI &amp; IoT with hands-on experience in sensor integration, device programming, and data communication.</p>
-</li>
-<li>
-<p class="content"><strong>Feb 2024 - Mar 2025</strong><br>
-AWS Cloud Engineer Trainee - Digital Talent Scholarship (Kominfo)<br>
-Completed 133 hours of intensive training in AWS Cloud Engineering.</p>
-</li>
-</ul>
-
-<h2 class="title-large"><p><span><center>Technical Expertise</center></span></p></h2>
-<ul>
-<li class="content"><strong>Programming:</strong> Python, Bash Scripting, SQL</li>
-<li class="content"><strong>Infra &amp; Virtualization:</strong> Docker &amp; Containerization, KVM/QEMU</li>
-<li class="content"><strong>Networking:</strong> Routing, Switching, TCP/IP</li>
-<li class="content"><strong>Cyber Security:</strong> Network Security, Vulnerability Assessment, Linux Security Hardening, Traffic Analysis &amp; Monitoring</li>
-<li class="content"><strong>Other:</strong> IoT, Web Development</li>
-</ul>
-
-<p class="content">© 2026 Haikal Yusuf Azzam. Built with Astro.</p>
+<p class="content">Prior to this, my academic background includes laboratory assistant roles in Python and object-oriented programming, a computer security internship developing a password-security API, and training in AWS cloud engineering, the AI and IoT Bootcamp, and the HCIA 5G program.</p>
 
 </div>
 </body>
